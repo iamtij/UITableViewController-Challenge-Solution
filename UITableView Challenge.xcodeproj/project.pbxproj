@@ -14,13 +14,13 @@
 		6F85B5F918A8423E007F6190 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F85B5F818A8423E007F6190 /* main.m */; };
 		6F85B5FD18A8423E007F6190 /* SBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F85B5FC18A8423E007F6190 /* SBAppDelegate.m */; };
 		6F85B60018A8423E007F6190 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F85B5FE18A8423E007F6190 /* Main.storyboard */; };
-		6F85B60318A8423E007F6190 /* SBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F85B60218A8423E007F6190 /* SBViewController.m */; };
 		6F85B60518A8423E007F6190 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F85B60418A8423E007F6190 /* Images.xcassets */; };
 		6F85B60C18A8423E007F6190 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F85B60B18A8423E007F6190 /* XCTest.framework */; };
 		6F85B60D18A8423E007F6190 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F85B5EC18A8423E007F6190 /* Foundation.framework */; };
 		6F85B60E18A8423E007F6190 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F85B5F018A8423E007F6190 /* UIKit.framework */; };
 		6F85B61618A8423E007F6190 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F85B61418A8423E007F6190 /* InfoPlist.strings */; };
 		6F85B61818A8423E007F6190 /* UITableView_ChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F85B61718A8423E007F6190 /* UITableView_ChallengeTests.m */; };
+		6F85B62318A84376007F6190 /* SBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F85B62218A84376007F6190 /* SBViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		6F85B5FB18A8423E007F6190 /* SBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBAppDelegate.h; sourceTree = "<group>"; };
 		6F85B5FC18A8423E007F6190 /* SBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBAppDelegate.m; sourceTree = "<group>"; };
 		6F85B5FF18A8423E007F6190 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6F85B60118A8423E007F6190 /* SBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBViewController.h; sourceTree = "<group>"; };
-		6F85B60218A8423E007F6190 /* SBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBViewController.m; sourceTree = "<group>"; };
 		6F85B60418A8423E007F6190 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6F85B60A18A8423E007F6190 /* UITableView ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableView ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F85B60B18A8423E007F6190 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6F85B61318A8423E007F6190 /* UITableView ChallengeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableView ChallengeTests-Info.plist"; sourceTree = "<group>"; };
 		6F85B61518A8423E007F6190 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6F85B61718A8423E007F6190 /* UITableView_ChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableView_ChallengeTests.m; sourceTree = "<group>"; };
+		6F85B62118A84376007F6190 /* SBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBViewController.h; sourceTree = "<group>"; };
+		6F85B62218A84376007F6190 /* SBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				6F85B5FB18A8423E007F6190 /* SBAppDelegate.h */,
 				6F85B5FC18A8423E007F6190 /* SBAppDelegate.m */,
 				6F85B5FE18A8423E007F6190 /* Main.storyboard */,
-				6F85B60118A8423E007F6190 /* SBViewController.h */,
-				6F85B60218A8423E007F6190 /* SBViewController.m */,
+				6F85B62118A84376007F6190 /* SBViewController.h */,
+				6F85B62218A84376007F6190 /* SBViewController.m */,
 				6F85B60418A8423E007F6190 /* Images.xcassets */,
 				6F85B5F318A8423E007F6190 /* Supporting Files */,
 			);
@@ -251,7 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F85B5F918A8423E007F6190 /* main.m in Sources */,
-				6F85B60318A8423E007F6190 /* SBViewController.m in Sources */,
+				6F85B62318A84376007F6190 /* SBViewController.m in Sources */,
 				6F85B5FD18A8423E007F6190 /* SBAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
